@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main-section {
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* section-1 */
+.section-1 {
+    margin-bottom: 128px;
+}
+
+.section-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* 50 km section  */
+.section-2 {
+    text-align: center;
+}
+
+.km50-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km50-img img {
+    width: 100%;
+}
+
+.km50-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+/* max-width 400px */
+@media screen and (max-width:400px) {
+    .main-section {
+        margin: 16px;
+    }
+
+    .section-1 {
+        margin-bottom: 128px;
+    }
+
+    .section-1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    /* 50 km section  */
+    .section-2 {
+        text-align: center;
+    }
+
+    .km50-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km50-img img {
+        width: 100%;
+    }
+
+    .km50-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+
+
+}
+
+
+
+
+
+/* max width 576 and min width 401 */
+@media screen and (min-width:401px) and (max-width:576px) {
+    .main-section {
+        margin: 16px;
+    }
+
+    .section-1 {
+        margin-bottom: 128px;
+    }
+
+    .section-1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+
+    /* 50 km section  */
+    .section-2 {
+        text-align: center;
+    }
+
+    .km50-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km50-img img {
+        width: 100%;
+    }
+
+    .km50-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
+
+
+/* max width 912 and min width 577 */
+@media screen and (min-width:577px) and (max-width:912px) {
+    .main-section {
+        margin: 16px;
+    }
+
+    .section-1 {
+        margin-bottom: 128px;
+    }
+
+    .section-1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+
+    /* 50 km section  */
+    .section-2 {
+        text-align: center;
+    }
+
+    .km50-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km50-img img {
+        width: 100%;
+    }
+
+    .km50-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+}
