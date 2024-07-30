@@ -8,7 +8,6 @@ body {
 }
 
 .main-section {
-    border: 2px solid red;
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
@@ -246,6 +245,11 @@ body {
 
 
 /* all medel sections */
+.all-medel {
+    text-align: center;
+    font-size: 3rem;
+}
+
 .all-medel-section-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -291,7 +295,6 @@ footer {
 .footer-info {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid rgb(77, 24, 24);
 }
 
 .footer-end {
@@ -544,6 +547,11 @@ footer {
 
 
     /* all medel sections */
+    .all-medel {
+        text-align: center;
+        font-size: 24px;
+    }
+
     .all-medel-section-1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -578,6 +586,7 @@ footer {
 
 
 
+    /* footer styles  */
     footer {
         background-color: black;
         color: white;
@@ -592,7 +601,6 @@ footer {
         gap: 16px;
         padding: 20px;
         justify-content: space-evenly;
-        border: 2px solid rgb(77, 24, 24);
     }
 
     .footer-end {
@@ -891,7 +899,6 @@ footer {
         gap: 16px;
         padding: 20px;
         justify-content: space-evenly;
-        border: 2px solid rgb(77, 24, 24);
     }
 
     .footer-end {
@@ -1190,7 +1197,6 @@ footer {
         gap: 16px;
         padding: 20px;
         justify-content: space-evenly;
-        border: 2px solid rgb(77, 24, 24);
     }
 
     .footer-end {
@@ -1490,7 +1496,6 @@ footer {
         gap: 16px;
         padding: 20px;
         justify-content: space-evenly;
-        border: 2px solid rgb(77, 24, 24);
     }
 
     .footer-end {
