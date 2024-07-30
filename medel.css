@@ -14,6 +14,8 @@ body {
     margin-right: 200px;
 }
 
+
+
 /* section-1 */
 .section-1 {
     margin-bottom: 128px;
@@ -25,8 +27,11 @@ body {
     border-radius: 16px;
 }
 
+
+
 /* 50 km section  */
 .section-2 {
+    margin-bottom: 128px;
     text-align: center;
 }
 
@@ -46,6 +51,235 @@ body {
     align-items: center;
     gap: 70px;
 }
+
+
+/* 42 km section  */
+.section-3 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km42-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km42-img img {
+    width: 100%;
+}
+
+.km42-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+/* 30 km section  */
+.section-4 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km30-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km30-img img {
+    width: 100%;
+}
+
+.km30-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* 25 km section  */
+.section-5 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km25-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km25-img img {
+    width: 100%;
+}
+
+.km25-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+/* 21 km section  */
+.section-6 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km21-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km21-img img {
+    width: 100%;
+}
+
+.km21-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* 15 km section  */
+.section-7 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km15-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km15-img img {
+    width: 100%;
+}
+
+.km15-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* 10 km section  */
+.section-8 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km10-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km10-img img {
+    width: 100%;
+}
+
+.km10-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* 7.5 km section  */
+.section-9 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km75-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km75-img img {
+    width: 100%;
+}
+
+.km75-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* 5 km section  */
+.section-10 {
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+.km5-title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.km5-img img {
+    width: 100%;
+}
+
+.km5-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+
+
+/* all medel sections */
+.all-medel-section-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.all-medel-section-info {
+    display: grid;
+    grid-gap: 16px;
+    margin: 20px;
+
+
+}
+
+.distance {
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.count {
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+
+
+
 
 
 
@@ -72,8 +306,11 @@ body {
         border-radius: 16px;
     }
 
+
+
     /* 50 km section  */
     .section-2 {
+        margin-bottom: 100px;
         text-align: center;
     }
 
@@ -95,10 +332,237 @@ body {
         gap: 16px;
     }
 
+    /* 42 km section  */
+    .section-3 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km42-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km42-img img {
+        width: 100%;
+    }
+
+    .km42-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 30 km section  */
+    .section-4 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km30-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km30-img img {
+        width: 100%;
+    }
+
+    .km30-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 30 km section  */
+    .section-5 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km25-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km25-img img {
+        width: 100%;
+    }
+
+    .km25-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 21 km section  */
+    .section-6 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km21-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km21-img img {
+        width: 100%;
+    }
+
+    .km21-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 15 km section  */
+    .section-7 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km15-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km15-img img {
+        width: 100%;
+    }
+
+    .km15-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 10 km section  */
+    .section-8 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km10-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km10-img img {
+        width: 100%;
+    }
+
+    .km10-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 7.5 km section  */
+    .section-9 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km75-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km75-img img {
+        width: 100%;
+    }
+
+    .km75-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 5 km section  */
+    .section-10 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km5-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km5-img img {
+        width: 100%;
+    }
+
+    .km5-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+
+
+
+    /* all medel sections */
+    .all-medel-section-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-medel-section-info {
+        display: grid;
+        grid-gap: 8px;
+
+
+
+    }
+
+    .distance {
+        padding: 10px 16px;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .count {
+        padding: 10px 16px;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+
 
 
 }
-
 
 
 
@@ -122,6 +586,7 @@ body {
 
     /* 50 km section  */
     .section-2 {
+        margin-bottom: 100px;
         text-align: center;
     }
 
@@ -142,18 +607,246 @@ body {
         align-items: center;
         gap: 16px;
     }
+
+    /* 42 km section  */
+    .section-3 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km42-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km42-img img {
+        width: 100%;
+    }
+
+    .km42-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 30 km section  */
+    .section-4 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km30-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km30-img img {
+        width: 100%;
+    }
+
+    .km30-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 25 km section  */
+    .section-5 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km25-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km25-img img {
+        width: 100%;
+    }
+
+    .km25-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 21 km section  */
+    .section-6 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km21-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km21-img img {
+        width: 100%;
+    }
+
+    .km21-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 15 km section  */
+    .section-7 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km15-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km15-img img {
+        width: 100%;
+    }
+
+    .km15-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 10 km section  */
+    .section-8 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km10-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km10-img img {
+        width: 100%;
+    }
+
+    .km10-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 7.5 km section  */
+    .section-9 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km75-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km75-img img {
+        width: 100%;
+    }
+
+    .km75-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* 5 km section  */
+    .section-10 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km5-title {
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km5-img img {
+        width: 100%;
+    }
+
+    .km5-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* all medel sections */
+    .all-medel-section-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-medel-section-info {
+        display: grid;
+        grid-gap: 8px;
+
+
+
+    }
+
+    .distance {
+        padding: 10px 16px;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .count {
+        padding: 10px 16px;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+
 }
 
 
 
+
+
 /* max width 912 and min width 577 */
-@media screen and (min-width:577px) and (max-width:912px) {
+@media screen and (min-width:577px) and (max-width:800px) {
     .main-section {
-        margin: 16px;
+        margin: 50px 30px;
     }
 
     .section-1 {
-        margin-bottom: 128px;
+        margin-bottom: 100px;
     }
 
     .section-1 img {
@@ -165,11 +858,13 @@ body {
 
     /* 50 km section  */
     .section-2 {
+        margin-bottom: 100px;
+        margin-bottom: 100px;
         text-align: center;
     }
 
     .km50-title {
-        font-size: 36px;
+        font-size: 100px;
         font-weight: 500;
         margin-bottom: 28px;
     }
@@ -183,6 +878,510 @@ body {
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         align-items: center;
-        gap: 16px;
+        gap: 20px;
     }
+
+    /* 42 km section  */
+    .section-3 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km42-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km42-img img {
+        width: 100%;
+    }
+
+    .km42-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 30 km section  */
+    .section-4 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km30-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km30-img img {
+        width: 100%;
+    }
+
+    .km30-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 25 km section  */
+    .section-5 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km25-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km25-img img {
+        width: 100%;
+    }
+
+    .km25-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 21 km section  */
+    .section-6 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km21-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km21-img img {
+        width: 100%;
+    }
+
+    .km21-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 15 km section  */
+    .section-7 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km15-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km15-img img {
+        width: 100%;
+    }
+
+    .km15-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 10 km section  */
+    .section-8 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km10-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km10-img img {
+        width: 100%;
+    }
+
+    .km10-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 7.5 km section  */
+    .section-9 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km75-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km75-img img {
+        width: 100%;
+    }
+
+    .km75-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 5 km section  */
+    .section-10 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km5-title {
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km5-img img {
+        width: 100%;
+    }
+
+    .km5-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* all medel sections */
+    .all-medel-section-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-medel-section-info {
+        display: grid;
+        grid-gap: 8px;
+
+
+
+    }
+
+    .distance {
+        padding: 10px 16px;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .count {
+        padding: 10px 16px;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+
+
+}
+
+
+
+
+
+/* max width 912 and min width 577 */
+@media screen and (min-width:801px) {
+    .main-section {
+        margin: 0px 60px;
+    }
+
+    .section-1 {
+        margin-bottom: 100px;
+    }
+
+    .section-1 img {
+        height: 100vh;
+        height: auto;
+        border-radius: 16px;
+    }
+
+
+    /* 50 km section  */
+    .section-2 {
+        margin-bottom: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km50-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km50-img img {
+        width: 100%;
+    }
+
+    .km50-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 42 km section  */
+    .section-3 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km42-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km42-img img {
+        width: 100%;
+    }
+
+    .km42-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 30 km section  */
+    .section-4 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km30-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km30-img img {
+        width: 100%;
+    }
+
+    .km30-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 25 km section  */
+    .section-5 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km25-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km25-img img {
+        width: 100%;
+    }
+
+    .km25-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 21 km section  */
+    .section-6 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km21-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km21-img img {
+        width: 100%;
+    }
+
+    .km21-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 15 km section  */
+    .section-7 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km15-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km15-img img {
+        width: 100%;
+    }
+
+    .km15-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 10 km section  */
+    .section-8 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km10-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km10-img img {
+        width: 100%;
+    }
+
+    .km10-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 7.5 km section  */
+    .section-9 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km75-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km75-img img {
+        width: 100%;
+    }
+
+    .km75-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* 5 km section  */
+    .section-10 {
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .km5-title {
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+
+    .km5-img img {
+        width: 100%;
+    }
+
+    .km5-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+
+    /* all medel sections */
+    .all-medel-section-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .all-medel-section-info {
+        display: grid;
+        grid-gap: 8px;
+
+
+
+    }
+
+    .distance {
+        padding: 10px 16px;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .count {
+        padding: 10px 16px;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+
+
 }
