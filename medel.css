@@ -278,10 +278,27 @@ body {
 }
 
 
+/* footer section design?? */
 
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.footer-info {
+    display: flex;
+    border: 2px solid rgb(77, 24, 24);
+}
 
+.footer-left-info {
+    margin-left: 100px;
+}
 
+.footer-right-info {
+    margin-left: 100px;
+}
 
 
 
