@@ -283,21 +283,20 @@ body {
 footer {
     background-color: black;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 16px;
 }
 
 .footer-info {
     display: flex;
+    justify-content: space-evenly;
     border: 2px solid rgb(77, 24, 24);
 }
 
-.footer-left-info {
-    margin-left: 100px;
-}
-
-.footer-right-info {
-    margin-left: 100px;
+.footer-end {
+    margin-top: 100px;
+    text-align: center;
 }
 
 
@@ -579,6 +578,33 @@ footer {
 
 
 
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+        justify-content: space-evenly;
+        border: 2px solid rgb(77, 24, 24);
+    }
+
+    .footer-end {
+        font-size: 12px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+
+
+
+
 }
 
 
@@ -848,6 +874,33 @@ footer {
         font-weight: 400;
         border-radius: 8px;
     }
+
+
+
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+        justify-content: space-evenly;
+        border: 2px solid rgb(77, 24, 24);
+    }
+
+    .footer-end {
+        font-size: 12px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+
 
 
 }
@@ -1120,6 +1173,30 @@ footer {
         font-size: 1rem;
         font-weight: 400;
         border-radius: 8px;
+    }
+
+
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+        justify-content: space-evenly;
+        border: 2px solid rgb(77, 24, 24);
+    }
+
+    .footer-end {
+        font-size: 12px;
+        margin-top: 100px;
+        text-align: center;
     }
 
 
@@ -1399,6 +1476,28 @@ footer {
         border-radius: 8px;
     }
 
+
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+
+    .footer-info {
+        display: flex;
+        gap: 16px;
+        padding: 20px;
+        justify-content: space-evenly;
+        border: 2px solid rgb(77, 24, 24);
+    }
+
+    .footer-end {
+        font-size: 14px;
+        margin-top: 100px;
+        text-align: center;
+    }
 
 
 }
